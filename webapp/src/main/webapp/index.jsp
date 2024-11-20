@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potato Paradise</title>
+
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <style>
         /* General Reset */
         * {
@@ -119,10 +123,9 @@
             transform: translateY(-10px);
         }
 
-        .product-card img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
+        .product-card i {
+            font-size: 3rem;
+            color: #ff7f50;
             margin-bottom: 1rem;
         }
 
@@ -194,7 +197,7 @@
     </nav>
 
     <!-- Main Section -->
-    <div class="main-section">
+    <div class="main-section" id="home">
         <img src="https://images.unsplash.com/photo-1603503658031-bb169a04f81d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHBvdGF0b3xlbnwwfDB8fHwxNjk5MzA5Njk5&ixlib=rb-1.2.1&q=80&w=800" alt="Fresh Potatoes">
         <h2>Delicious Potato-Based Products</h2>
         <p>We offer a wide variety of potato-based products. From fresh potatoes to processed items, our selection will cater to every potato lover!</p>
@@ -205,25 +208,38 @@
         <h3>Our Popular Potato Products</h3>
         
         <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1553371293-d9cc903fc899?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg2OXwwfDF8c2VhcmNofDd8fGZyZW5jaCBmcnllc3xlbnwwfDB8fHwxNjk5MzExODg5&ixlib=rb-1.2.1&q=80&w=400" alt="French Fries">
+            <i class="fas fa-french-fries"></i>
             <h4>French Fries</h4>
             <p>Crispy, golden fries that are perfect for any meal. Available in various sizes.</p>
             <p class="price">$1.99 / bag</p>
         </div>
 
         <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1569917484-d1e590ba050b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg2OXwwfDF8c2VhcmNofDg4fHByb2R1Y3RzJTIwY2hpcHxlbnwwfDB8fHwxNjk5MzA4OTY4&ixlib=rb-1.2.1&q=80&w=400" alt="Potato Chips">
+            <i class="fas fa-chips"></i>
             <h4>Potato Chips</h4>
             <p>Lightly salted and perfectly crispy. A classic snack that never gets old.</p>
             <p class="price">$2.49 / bag</p>
         </div>
 
         <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1593014767454-b82a75f1e1b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg2OXwwfDF8c2VhcmNofDE3fHxtYXNoZWQgcG90YXRvZXxlbnwwfDB8fHwxNjk5MzA5MzM1&ixlib=rb-1.2.1&q=80&w=400" alt="Mashed Potatoes">
+            <i class="fas fa-utensils"></i>
             <h4>Mashed Potatoes</h4>
             <p>Rich, creamy mashed potatoes made with real butter and cream. Comfort food at its finest!</p>
             <p class="price">$3.99 / container</p>
         </div>
 
         <div class="product-card">
-            <img src="https://images.unsplash.com/photo-1600744977257-486b845ea441?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg2OXwwfDF8c2V
+            <i class="fas fa-burger"></i>
+            <h4>Potato Wedges</h4>
+            <p>Thick, crispy potato wedges seasoned to perfection. A perfect side dish or snack.</p>
+            <p class="price">$2.99 / bag</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>© 2024 Potato Paradise | <a href="mailto:contact@potatoparadise.com">Contact Us</a></p>
+    </footer>
+
+</body>
+</html>
