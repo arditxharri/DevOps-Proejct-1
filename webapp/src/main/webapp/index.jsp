@@ -46,7 +46,7 @@
         /* Navigation Menu */
         nav {
             text-align: center;
-            background-color: #ff6347;
+            background-color: #8a29ca;
             padding: 1rem 0;
         }
 
