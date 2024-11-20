@@ -123,9 +123,8 @@
             transform: translateY(-10px);
         }
 
-        .product-card i {
-            font-size: 3rem;
-            color: #ff7f50;
+        .product-card img {
+            max-width: 100px;
             margin-bottom: 1rem;
         }
 
@@ -165,7 +164,7 @@
         }
 
         footer a:hover {
-            text-decoration: underline;
+ text-decoration: underline;
         }
 
         /* Media Queries */
@@ -208,6 +207,7 @@
         <h3>Our Popular Potato Products</h3>
         
         <div class="product-card">
+            <img src="https://via.placeholder.com/100?text=Fries" alt="French Fries">
             <i class="fas fa-french-fries"></i>
             <h4>French Fries</h4>
             <p>Crispy, golden fries that are perfect for any meal. Available in various sizes.</p>
@@ -215,6 +215,7 @@
         </div>
 
         <div class="product-card">
+            <img src="https://via.placeholder.com/100?text=Chips" alt="Potato Chips">
             <i class="fas fa-chips"></i>
             <h4>Potato Chips</h4>
             <p>Lightly salted and perfectly crispy. A classic snack that never gets old.</p>
@@ -222,6 +223,7 @@
         </div>
 
         <div class="product-card">
+            <img src="https://via.placeholder.com/100?text=Mashed" alt="Mashed Potatoes">
             <i class="fas fa-utensils"></i>
             <h4>Mashed Potatoes</h4>
             <p>Rich, creamy mashed potatoes made with real butter and cream. Comfort food at its finest!</p>
@@ -229,6 +231,7 @@
         </div>
 
         <div class="product-card">
+            <img src="https://via.placeholder.com/100?text=Wedges" alt="Potato Wedges">
             <i class="fas fa-burger"></i>
             <h4>Potato Wedges</h4>
             <p>Thick, crispy potato wedges seasoned to perfection. A perfect side dish or snack.</p>
