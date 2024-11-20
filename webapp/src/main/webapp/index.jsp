@@ -27,7 +27,7 @@
 
         /* Header */
         header {
-            background-color: #ff7f50;
+            background-color: #e09422;
             color: #fff;
             padding: 1rem 2rem;
             text-align: center;
